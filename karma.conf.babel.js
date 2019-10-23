@@ -13,7 +13,7 @@ export default function setConfig(config) {
     frameworks: ['jasmine'],
     files: ['src/tests.js'],
     preprocessors: {
-      'src/tests.js': ['webpack', 'sourcemap'],
+      'src/tests.js': ['webpack', 'sourcemap']
     },
     plugins: [
       KarmaJasmine,
